@@ -5,3 +5,4 @@ airflow db migrate
 airflow users create --username admin --password admin --firstname Lab --lastname User --role Admin --email lab@example.com || true
 airflow scheduler &
 exec airflow webserver
+
